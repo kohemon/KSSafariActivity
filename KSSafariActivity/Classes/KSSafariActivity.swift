@@ -7,35 +7,39 @@
 
 import UIKit
 
-class KSSafariActivity: UIActivity {
+public class KSSafariActivity: UIActivity {
     
     var title: String!
     var url: URL!
     
-    init(activityTitle: String, url: URL) {
-        self.title = activityTitle
+    public init(title: String, url: URL) {
+        self.title = title
         self.url = url
         super.init()
         
     }
     
-    override var activityTitle: String? {
+    override public var activityTitle: String? {
         return title
     }
     
-    override var activityImage: UIImage? {
-        return UIImage(named: "ks_safari_activity_icon")
+    override public var activityImage: UIImage? {
+        let bundle = Bundle(for: KSSafariActivity.self)
+        if let imagePath = bundle.path(forResource: "ks_safari_activity_icon", ofType: "png") {
+            return UIImage(contentsOfFile: imagePath)
+        }
+        return nil
     }
     
     
-    override func canPerform(withActivityItems activityItems: [Any]) -> Bool {
+    override public func canPerform(withActivityItems activityItems: [Any]) -> Bool {
         return UIApplication.shared.canOpenURL(url)
     }
     
-    override func prepare(withActivityItems activityItems: [Any]) {
+    override public func prepare(withActivityItems activityItems: [Any]) {
     }
     
-    override func perform() {
+    override public func perform() {
         guard let url = self.url else { return }
         if #available(iOS 10.0, *) {
             UIApplication.shared.open(url, options: [:], completionHandler: nil)
