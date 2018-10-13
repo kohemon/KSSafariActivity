@@ -18,7 +18,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 - iOS 8.0 or later
 
 ## Usage
-```
+```swift
 // Create a KSSafariActivity with title and url
 let ksSafariActivity = KSSafariActivity(title: "open safari", url: URL(string: "https://yourUrl"))
 
