@@ -5,11 +5,25 @@
 [![License](https://img.shields.io/cocoapods/l/KSSafariActivity.svg?style=flat)](https://cocoapods.org/pods/KSSafariActivity)
 [![Platform](https://img.shields.io/cocoapods/p/KSSafariActivity.svg?style=flat)](https://cocoapods.org/pods/KSSafariActivity)
 
+Existing ActivityViewController does not have Activity to open Safari. With KSsafariActivity you can introduce it with just a single line without any concern for developers.
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+- Swift 3.0 or later
+- iOS 8.0 or later
+
+## Usage
+```
+// Create a KSSafariActivity with title and url
+let ksSafariActivity = KSSafariActivity(title: "open safari", url: URL(string: "https://yourUrl"))
+
+// Passing to applicationActivities just transitions as usual
+let activityViewController = UIActivityViewController(activityItems: [""], applicationActivities: [ksSafariActivity])
+present(activity, animated: true, completion: nil)
+```
 
 ## Installation
 
