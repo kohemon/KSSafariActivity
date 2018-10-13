@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import KSSafariActivity
 
 class ViewController: UIViewController {
 

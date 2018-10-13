@@ -29,9 +29,9 @@
 
 /* Begin PBXFileReference section */
 		0648E2DADEFA0A342ED6FC30 /* Pods-KSSafariActivity_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KSSafariActivity_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KSSafariActivity_Example/Pods-KSSafariActivity_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		0FC3DC647EEEF722FD533889 /* KSSafariActivity.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = KSSafariActivity.podspec; path = ../KSSafariActivity.podspec; sourceTree = "<group>"; };
+		0FC3DC647EEEF722FD533889 /* KSSafariActivity.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = KSSafariActivity.podspec; path = ../KSSafariActivity.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		38F659F20774B0B1D75F9911 /* Pods_KSSafariActivity_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KSSafariActivity_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4274C980EA00CAF0360A656D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		4274C980EA00CAF0360A656D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* KSSafariActivity_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KSSafariActivity_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -43,7 +43,7 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6117EF0164AA4FD2D939327C /* Pods-KSSafariActivity_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KSSafariActivity_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KSSafariActivity_Tests/Pods-KSSafariActivity_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		7434B915A17E7CBE8B13D4F4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		7434B915A17E7CBE8B13D4F4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		BE24B9370B223ECE5D9FC851 /* Pods_KSSafariActivity_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KSSafariActivity_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C064BF3C00C103DF174A7ACF /* Pods-KSSafariActivity_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KSSafariActivity_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KSSafariActivity_Tests/Pods-KSSafariActivity_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E808E719999E1410C54350D7 /* Pods-KSSafariActivity_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KSSafariActivity_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-KSSafariActivity_Example/Pods-KSSafariActivity_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -266,15 +266,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-KSSafariActivity_Example-checkManifestLockResult.txt",
 			);
@@ -288,15 +284,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-KSSafariActivity_Tests-checkManifestLockResult.txt",
 			);
@@ -310,15 +302,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-KSSafariActivity_Example/Pods-KSSafariActivity_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/KSSafariActivity/KSSafariActivity.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KSSafariActivity.framework",
 			);

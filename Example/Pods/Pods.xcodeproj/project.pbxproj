@@ -9,14 +9,14 @@
 /* Begin PBXBuildFile section */
 		00A573173D88E32297E153DC75F3AB31 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		18DC02336EDCA42473A38B9580C46326 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		2B0BFF02B704D28B1B7A957C87399F70 /* KSSafariActivity-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5ED234CE8916117B0CB351B5C366AEBB /* KSSafariActivity-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B0BFF02B704D28B1B7A957C87399F70 /* KSSafariActivity-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DD621AB4AFF2BCF9C3A95F573A3C5B1 /* KSSafariActivity-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2D88CBF2F0708BC03EE8A63C550861F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		47B44BF2607537EFFDE756DFFC03CE90 /* Pods-KSSafariActivity_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 392232D063F5D3E3B33332BF5F501FA2 /* Pods-KSSafariActivity_Tests-dummy.m */; };
 		6E0064D232BD4AE63A60F3EE29D67C00 /* Pods-KSSafariActivity_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C8F28EA7CC8342DB380B574A2C4DD840 /* Pods-KSSafariActivity_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A128597D2171B20900AFF4B4 /* KSSafariActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A128597C2171B20900AFF4B4 /* KSSafariActivity.swift */; };
 		B6302C318BFC4F0372EEB903DDD60D4F /* Pods-KSSafariActivity_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C56ABD783678AF5DC45EBF396FE47F /* Pods-KSSafariActivity_Example-dummy.m */; };
 		BB94BE2AAF96BC8577F9579F3FE45D6E /* Pods-KSSafariActivity_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A39B87EF0676613A8FF982677DD7A6B7 /* Pods-KSSafariActivity_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EA1D1B1C237425819A6B85257ADE6684 /* KSSafariActivity-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 765E07D9C89D4D393861AE8EEEE93C87 /* KSSafariActivity-dummy.m */; };
+		EA29EDBB3A71AC7809E5D24AA15EFE58 /* KSSafariActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD50865F7AFBD5AC16B5DF12AA7A0EB /* KSSafariActivity.swift */; };
+		F241C861C15B910492CB63CBE25BC530 /* KSSafariActivity-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 175BAF48489FA44120FAE9683DA3BAC1 /* KSSafariActivity-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,39 +39,39 @@
 /* Begin PBXFileReference section */
 		079C28FD332DDFF93B489545231B73BA /* Pods-KSSafariActivity_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KSSafariActivity_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		095A85005414116BC4DE45493612C00B /* Pods-KSSafariActivity_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KSSafariActivity_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0DD621AB4AFF2BCF9C3A95F573A3C5B1 /* KSSafariActivity-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KSSafariActivity-umbrella.h"; sourceTree = "<group>"; };
 		174845090C6F27975E1613934744B3DD /* Pods-KSSafariActivity_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KSSafariActivity_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		1770267EDFCE93ECD995DFCA3670A209 /* KSSafariActivity.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = KSSafariActivity.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		1A4ED23A556C890B6F0DF95838FDBBAD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		174D6611C2717D8037D2D4BEAE83EFED /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		175BAF48489FA44120FAE9683DA3BAC1 /* KSSafariActivity-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KSSafariActivity-dummy.m"; sourceTree = "<group>"; };
 		1BBE9617AE484AF1579BBF7685CDB9A5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1E2945B96819D6BAB5F564C70C190AB8 /* KSSafariActivity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KSSafariActivity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E2945B96819D6BAB5F564C70C190AB8 /* KSSafariActivity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KSSafariActivity.framework; path = KSSafariActivity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		339464743F1202E6C9C8E32C35D6B04C /* Pods-KSSafariActivity_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KSSafariActivity_Example.modulemap"; sourceTree = "<group>"; };
+		3713C46385E2124E31E1B67F0A581FFE /* KSSafariActivity.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KSSafariActivity.xcconfig; sourceTree = "<group>"; };
 		392232D063F5D3E3B33332BF5F501FA2 /* Pods-KSSafariActivity_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KSSafariActivity_Tests-dummy.m"; sourceTree = "<group>"; };
+		3AD50865F7AFBD5AC16B5DF12AA7A0EB /* KSSafariActivity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KSSafariActivity.swift; path = KSSafariActivity/Classes/KSSafariActivity.swift; sourceTree = "<group>"; };
 		3F4AEE689431B5FDC45B3A8707008AE1 /* Pods-KSSafariActivity_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KSSafariActivity_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		4038969289C98EC28F9CA46AC26A9AFE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		441963D10952784107DA777AA8DA3BAF /* KSSafariActivity.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = KSSafariActivity.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		5ED234CE8916117B0CB351B5C366AEBB /* KSSafariActivity-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KSSafariActivity-umbrella.h"; sourceTree = "<group>"; };
 		6807E5724D80BC03A6CC2F3E25E8DCDB /* Pods-KSSafariActivity_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KSSafariActivity_Tests.modulemap"; sourceTree = "<group>"; };
 		6CB1BA12E9C4743E8D6F39F7C6984AE4 /* Pods-KSSafariActivity_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KSSafariActivity_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		71873D4BC1BD16F62D2E4B259BF4299C /* Pods-KSSafariActivity_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KSSafariActivity_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		765E07D9C89D4D393861AE8EEEE93C87 /* KSSafariActivity-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KSSafariActivity-dummy.m"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DCBC85A800D1612EE2EEA3FB3FEA2DD /* Pods-KSSafariActivity_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KSSafariActivity_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9F3651DA8776E8296AA8DB169BAF876D /* KSSafariActivity.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KSSafariActivity.modulemap; sourceTree = "<group>"; };
-		A128597C2171B20900AFF4B4 /* KSSafariActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = KSSafariActivity.swift; path = KSSafariActivity/Classes/KSSafariActivity.swift; sourceTree = "<group>"; };
+		9F26A1D5BD78A4279E907AC06D724972 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		A397F6C9C776D440BF625D4C9CC34AF8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A39B87EF0676613A8FF982677DD7A6B7 /* Pods-KSSafariActivity_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KSSafariActivity_Example-umbrella.h"; sourceTree = "<group>"; };
 		A81460460A8537D81D052CC647266897 /* Pods-KSSafariActivity_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KSSafariActivity_Example-frameworks.sh"; sourceTree = "<group>"; };
+		B63BE6508217C181C57C6C9AB5511F08 /* KSSafariActivity-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KSSafariActivity-prefix.pch"; sourceTree = "<group>"; };
 		C8F28EA7CC8342DB380B574A2C4DD840 /* Pods-KSSafariActivity_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KSSafariActivity_Tests-umbrella.h"; sourceTree = "<group>"; };
-		CA5749C61D0523E485B4B03E0350845D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		D19A4E5038E968310C58CC9B4BD27CD4 /* Pods_KSSafariActivity_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KSSafariActivity_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D1A3592398B702EA0E602BBC0BDCB6E4 /* KSSafariActivity.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KSSafariActivity.xcconfig; sourceTree = "<group>"; };
+		D19A4E5038E968310C58CC9B4BD27CD4 /* Pods_KSSafariActivity_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KSSafariActivity_Example.framework; path = "Pods-KSSafariActivity_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D47B9F10C0CE1B91A072ADAB0EF3AEF5 /* Pods-KSSafariActivity_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KSSafariActivity_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		DAF664DF75CAD30B736334902940D16F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DEBA759B961B75C37DB9F3B22FC43A5B /* Pods-KSSafariActivity_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KSSafariActivity_Tests-resources.sh"; sourceTree = "<group>"; };
-		E3AC45219929F543082976500AECED53 /* KSSafariActivity-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KSSafariActivity-prefix.pch"; sourceTree = "<group>"; };
 		E617E737071CD1D4109CF109D6932F8C /* Pods-KSSafariActivity_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KSSafariActivity_Example-resources.sh"; sourceTree = "<group>"; };
+		E86C20877DF67A6A67B329719BBCDBD9 /* KSSafariActivity.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KSSafariActivity.modulemap; sourceTree = "<group>"; };
 		EB255790A96B8AE20987AE6F5D743164 /* Pods-KSSafariActivity_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KSSafariActivity_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F5C56ABD783678AF5DC45EBF396FE47F /* Pods-KSSafariActivity_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KSSafariActivity_Example-dummy.m"; sourceTree = "<group>"; };
-		FBEA2577B02CF2290541D5AC28B7A845 /* Pods_KSSafariActivity_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KSSafariActivity_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBEA2577B02CF2290541D5AC28B7A845 /* Pods_KSSafariActivity_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KSSafariActivity_Tests.framework; path = "Pods-KSSafariActivity_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,9 +105,33 @@
 		09138582E981DE992E236269FD47941F /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				935FEDA3148B93DDE6744FDEDD3D7B84 /* KSSafariActivity */,
+				C961EC632C7025DB63DE9E3E640144CE /* KSSafariActivity */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		2BA7ED1CBF01EFFED3DF724CD211C25E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DAF664DF75CAD30B736334902940D16F /* Info.plist */,
+				E86C20877DF67A6A67B329719BBCDBD9 /* KSSafariActivity.modulemap */,
+				3713C46385E2124E31E1B67F0A581FFE /* KSSafariActivity.xcconfig */,
+				175BAF48489FA44120FAE9683DA3BAC1 /* KSSafariActivity-dummy.m */,
+				B63BE6508217C181C57C6C9AB5511F08 /* KSSafariActivity-prefix.pch */,
+				0DD621AB4AFF2BCF9C3A95F573A3C5B1 /* KSSafariActivity-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/KSSafariActivity";
+			sourceTree = "<group>";
+		};
+		3E5712D546C78AC166FDB98697E3BDF5 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				441963D10952784107DA777AA8DA3BAF /* KSSafariActivity.podspec */,
+				9F26A1D5BD78A4279E907AC06D724972 /* LICENSE */,
+				174D6611C2717D8037D2D4BEAE83EFED /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		4474DBA41E12F9D57533B8709D36E2C6 /* Pods-KSSafariActivity_Tests */ = {
@@ -175,17 +199,6 @@
 			);
 			sourceTree = "<group>";
 		};
-		935FEDA3148B93DDE6744FDEDD3D7B84 /* KSSafariActivity */ = {
-			isa = PBXGroup;
-			children = (
-				A128597C2171B20900AFF4B4 /* KSSafariActivity.swift */,
-				F201CD926F65C5501F5E61A11F8CDB77 /* Pod */,
-				C2BD56F7D286C7E0F6E84B65F6E085B1 /* Support Files */,
-			);
-			name = KSSafariActivity;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -194,18 +207,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C2BD56F7D286C7E0F6E84B65F6E085B1 /* Support Files */ = {
+		C961EC632C7025DB63DE9E3E640144CE /* KSSafariActivity */ = {
 			isa = PBXGroup;
 			children = (
-				4038969289C98EC28F9CA46AC26A9AFE /* Info.plist */,
-				9F3651DA8776E8296AA8DB169BAF876D /* KSSafariActivity.modulemap */,
-				D1A3592398B702EA0E602BBC0BDCB6E4 /* KSSafariActivity.xcconfig */,
-				765E07D9C89D4D393861AE8EEEE93C87 /* KSSafariActivity-dummy.m */,
-				E3AC45219929F543082976500AECED53 /* KSSafariActivity-prefix.pch */,
-				5ED234CE8916117B0CB351B5C366AEBB /* KSSafariActivity-umbrella.h */,
+				3AD50865F7AFBD5AC16B5DF12AA7A0EB /* KSSafariActivity.swift */,
+				3E5712D546C78AC166FDB98697E3BDF5 /* Pod */,
+				2BA7ED1CBF01EFFED3DF724CD211C25E /* Support Files */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/KSSafariActivity";
+			name = KSSafariActivity;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		DB28CAD479E174CF81BC019261647FEA /* Targets Support Files */ = {
@@ -215,16 +225,6 @@
 				4474DBA41E12F9D57533B8709D36E2C6 /* Pods-KSSafariActivity_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		F201CD926F65C5501F5E61A11F8CDB77 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				1770267EDFCE93ECD995DFCA3670A209 /* KSSafariActivity.podspec */,
-				1A4ED23A556C890B6F0DF95838FDBBAD /* LICENSE */,
-				CA5749C61D0523E485B4B03E0350845D /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,7 +262,7 @@
 			buildConfigurationList = A2B3C3659A715AFF6BFF3E4E4F007387 /* Build configuration list for PBXNativeTarget "KSSafariActivity" */;
 			buildPhases = (
 				48C97386ABF2533CA7E89AE938CAB685 /* Headers */,
-				CCA6E92B7F7983925F493A2269CB9B75 /* Sources */,
+				837F73761C965621BF1FB6A6B25C0C94 /* Sources */,
 				4E381E566242DF3EEC1E4745BAE864CC /* Frameworks */,
 				A934388776E190FA28EF33CE610911AD /* Resources */,
 			);
@@ -321,11 +321,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
-				TargetAttributes = {
-					2290DD797FAE2E9BA651676B6D6ECC68 = {
-						LastSwiftMigration = 0940;
-					};
-				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -379,12 +374,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CCA6E92B7F7983925F493A2269CB9B75 /* Sources */ = {
+		837F73761C965621BF1FB6A6B25C0C94 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A128597D2171B20900AFF4B4 /* KSSafariActivity.swift in Sources */,
-				EA1D1B1C237425819A6B85257ADE6684 /* KSSafariActivity-dummy.m in Sources */,
+				F241C861C15B910492CB63CBE25BC530 /* KSSafariActivity-dummy.m in Sources */,
+				EA29EDBB3A71AC7809E5D24AA15EFE58 /* KSSafariActivity.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,9 +411,8 @@
 /* Begin XCBuildConfiguration section */
 		4D6A6071B8F3F980D2433BB0378068DA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D1A3592398B702EA0E602BBC0BDCB6E4 /* KSSafariActivity.xcconfig */;
+			baseConfigurationReference = 3713C46385E2124E31E1B67F0A581FFE /* KSSafariActivity.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -508,9 +502,8 @@
 		};
 		AF4C0AE9D1D2470215938B50453BE717 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D1A3592398B702EA0E602BBC0BDCB6E4 /* KSSafariActivity.xcconfig */;
+			baseConfigurationReference = 3713C46385E2124E31E1B67F0A581FFE /* KSSafariActivity.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -531,7 +524,8 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -665,7 +659,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
