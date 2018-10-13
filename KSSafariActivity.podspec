@@ -9,8 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'KSSafariActivity'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of KSSafariActivity.'
-
+  s.summary          = 'add open safari activity to your ActivityViewControoler'
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
 #   * Try to keep it short, snappy and to the point.
@@ -18,7 +17,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+Existing ActivityViewController does not have Activity to open Safari. With KSsafariActivity you can introduce it with just a single line without any concern for developers.
                        DESC
 
   s.homepage         = 'https://github.com/kohei1218/KSSafariActivity'
