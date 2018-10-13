@@ -7,6 +7,8 @@
 
 Existing ActivityViewController does not have Activity to open Safari. With KSsafariActivity you can introduce it with just a single line without any concern for developers.
 
+![](https://github.com/kohei1218/KSSafariActivity/blob/master/image.png)
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
