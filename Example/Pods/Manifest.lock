@@ -1,0 +1,16 @@
+PODS:
+  - KSSafariActivity (0.1.0)
+
+DEPENDENCIES:
+  - KSSafariActivity (from `../`)
+
+EXTERNAL SOURCES:
+  KSSafariActivity:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  KSSafariActivity: d0ce2f003b990fa7691ae87f1e32352da5bcc7a3
+
+PODFILE CHECKSUM: a0c3d56bba3b16f4c347f1d805bdc6e424428c0f
+
+COCOAPODS: 1.5.3

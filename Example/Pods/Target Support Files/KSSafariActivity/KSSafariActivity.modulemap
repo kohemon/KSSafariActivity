@@ -1,0 +1,6 @@
+framework module KSSafariActivity {
+  umbrella header "KSSafariActivity-umbrella.h"
+
+  export *
+  module * { export * }
+}
