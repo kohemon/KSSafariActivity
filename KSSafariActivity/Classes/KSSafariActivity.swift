@@ -24,9 +24,10 @@ public class KSSafariActivity: UIActivity {
     }
     
     override public var activityImage: UIImage? {
-        let bundle = Bundle(for: KSSafariActivity.self)
-        if let imagePath = bundle.path(forResource: "ks_safari_activity_icon", ofType: "png") {
-            return UIImage(contentsOfFile: imagePath)
+        let podBundle = Bundle(for: KSSafariActivity.self)
+        if let url = podBundle.url(forResource: "KSSafariActivity", withExtension: "bundle") {
+            let bundle = Bundle(url: url)
+            return UIImage(named: "ks_safari_activity_icon.png", in: bundle, compatibleWith: nil)
         }
         return nil
     }
