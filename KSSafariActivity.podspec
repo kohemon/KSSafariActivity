@@ -31,9 +31,9 @@ Existing ActivityViewController does not have Activity to open Safari. With KSsa
 
   s.source_files = 'KSSafariActivity/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'KSSafariActivity' => ['KSSafariActivity/Assets/*.png']
-  # }
+  s.resource_bundles = {
+    'KSSafariActivity' => ['KSSafariActivity/Assets/ks_safari_activity_icon.png']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

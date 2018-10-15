@@ -24,7 +24,8 @@ public class KSSafariActivity: UIActivity {
     }
     
     override public var activityImage: UIImage? {
-        let bundle = Bundle(for: KSSafariActivity.self)
+        let path = Bundle.main.path(forResource: "KSSafariActivity", ofType: "bundle")
+        let bundle = Bundle(path: path)
         if let imagePath = bundle.path(forResource: "ks_safari_activity_icon", ofType: "png") {
             return UIImage(contentsOfFile: imagePath)
         }
